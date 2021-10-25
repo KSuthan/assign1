@@ -1,0 +1,220 @@
+
+:root {
+    --white:#ffffff;
+    --lightgray:#d9dcd6;
+    --lightblue:#0072bb;
+    --margin-bottom1:10px;
+    --margin-bottom2: 20px;
+    --margin-bottom: 32px;
+    --margin-left: 25px;
+    --margin: 10px;
+    --max-width: 150px;
+    --padding: 50px;
+    --height: 300px;
+    --max-height: 200px;
+    --font-size: 36px;
+    --font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --text-align: center;
+    --padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:var(--lightgray);
+}
+
+.header {
+    padding: var(--padding);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color:var(--white);
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color:var(--lightgray);
+}
+
+.header nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: var(--font-family);
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav li {
+    display: inline-block;
+    margin-left: var(--margin-left);
+}
+
+a {
+    color:var(--white);
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: var(--margin-left);
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: var(--padding);
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: var(--font-family);
+    background-color: #2589bd;
+}
+
+.benefit-lead {
+    margin-bottom:var(--margin-bottom);
+    color:var(--white);
+}
+
+.benefit-brand {
+    margin-bottom: var(--margin-bottom);
+    color:var(--white);
+}
+
+.benefit-cost {
+    margin-bottom: var(--margin-bottom);
+    color: var(--white);
+}
+
+.benefit-lead h3 {
+    margin-bottom:var(--margin-bottom1);
+    text-align: var(--text-align);
+}
+
+.benefit-brand h3 {
+    margin-bottom: var(--margin-bottom1);
+    text-align: var(--text-align);
+}
+
+.benefit-cost h3 {
+    margin-bottom:var(--margin-bottom1);
+    text-align: var(--text-align);
+}
+
+.benefit-lead img {
+    display: block;
+    margin: var(--margin) auto;
+    max-width: var(--max-width);
+}
+
+.benefit-brand img {
+    display: block;
+    margin: var(--margin) auto;
+    max-width: var(--max-width);
+}
+
+.benefit-cost img {
+    display: block;
+    margin: var(--margin) auto;
+    max-width: var(--max-width);
+}
+
+.search-engine-optimization {
+    margin-bottom: var(--margin-bottom2);
+    padding: var(--padding);
+    height: var(--height);
+    font-family: var(--font-family);
+    background-color: var(--lightblue);
+    color: var(--white);
+}
+
+.online-reputation-management {
+    margin-bottom: var(--margin-bottom2);
+    padding: var(--padding);
+    height: var(--height);
+    font-family: var(--font-family);
+    background-color: var(--lightblue);
+    color: var(--white);
+}
+
+.social-media-marketing {
+    margin-bottom: var(--margin-bottom2);
+    padding: var(--padding);
+    height: var(--height);
+    font-family: var(--font-family);
+    background-color: var(--lightblue);
+    color: var(--white);
+}
+
+.search-engine-optimization img {
+    max-height: var(--max-height);
+}
+
+.online-reputation-management img {
+    max-height: var(--max-height);
+}
+
+.social-media-marketing img {
+    max-height: var(--max-height);
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: var(--margin-bottom2);
+    font-size: var(--font-size);
+}
+
+.online-reputation-management h2 {
+    margin-bottom: var(--margin-bottom2);
+    font-size: var(--font-size);
+}
+
+.social-media-marketing h2 {
+    margin-bottom: var(--margin-bottom2);
+    font-size: var(--font-size);
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: var(--text-align);
+}
+
+.footer h2 {
+    font-size: 20px;
+}
